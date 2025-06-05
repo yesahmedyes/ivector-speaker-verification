@@ -1,4 +1,4 @@
-# Statistical Modelling for Speaker Identity Verification Using I-Vectors
+# Speaker Identity Verification Using I-Vectors
 
 A state-of-the-art speaker identification system achieving **99.63% accuracy** using advanced signal processing and machine learning techniques. This implementation follows the classical speaker recognition pipeline with Universal Background Models (UBM), supervector adaptation, and factor analysis.
 
