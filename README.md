@@ -15,9 +15,11 @@ This project implements a robust speaker recognition system that can identify sp
 - **Combined Features**: Concatenates MFCC and Delta-MFCC for a 26-dimensional feature vector
 
 ![MFCC Features](images/mfcc.png)
+
 _Figure 1: MFCC feature extraction showing spectral characteristics over time_
 
 ![Delta MFCC Features](images/delta-mfcc.png)
+
 _Figure 2: Delta MFCC features capturing temporal dynamics of speech_
 
 ### 2. Universal Background Model (UBM)
@@ -63,6 +65,7 @@ _Figure 2: Delta MFCC features capturing temporal dynamics of speech_
 - **Features**: Excellent speaker separability as visualized through t-SNE plots
 
 ![Speaker Data Distribution](images/data.png)
+
 _Figure 3: Distribution of audio samples across 40 speakers in the dataset_
 
 ## Performance Analysis
@@ -76,6 +79,7 @@ The system shows excellent performance with minimal confusion between speakers. 
 - Robust normalization techniques
 
 ![Confusion Matrix](images/cm.png)
+
 _Figure 4: Confusion matrix showing 99.63% accuracy with minimal speaker misclassification_
 
 ### Visualization
@@ -85,6 +89,7 @@ _Figure 4: Confusion matrix showing 99.63% accuracy with minimal speaker misclas
 - **Speaker distribution** shows balanced dataset across all 40 speakers
 
 ![LDA Transformed Speaker Factors](images/lda-features.png)
+
 _Figure 5: t-SNE visualization of LDA-transformed speaker factors showing clear speaker clustering_
 
 ## References
